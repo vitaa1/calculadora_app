@@ -1,0 +1,10 @@
+<html>
+    <form method="POST" autocomplete="off">
+
+        {% csrf_token %}
+
+        {{loginformulario.as_p}}
+
+        <input type="submit" value="Entrar"/>
+    </form>
+</html>
